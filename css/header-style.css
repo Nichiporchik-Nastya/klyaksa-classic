@@ -33,7 +33,7 @@
     width: 100%;
 }
 
-.center-col--header{
+.center-col--header, .center-col--footer{
     display: flex;
 }
 
@@ -87,8 +87,8 @@ input::-moz-placeholder { color: var(--light); }
 input::-webkit-input-placeholder { color: var(--light); }
 
 .working-hours__line{
-    margin-bottom: 2px;
-    margin-top: 12px;
+    /* margin-bottom: 2px; */
+    margin-top: 8px;
 }
 .working-hours{
     margin: auto 0px;
