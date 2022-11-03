@@ -1,0 +1,151 @@
+:root {
+    --blue: #020575;
+    --light: #F2F2FF;
+    --dark: #5C6370;
+}
+html{
+    height: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: red;
+    height: 100%;
+    line-height: 1.2em;
+}
+
+a {
+    color: inherit;
+}
+
+.heading{
+    font-size: 18px;
+    margin: 24px 0px 24px 0px;
+}
+
+.main-container{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 0 auto;
+    /* width: 1420px; */
+    max-width: 100%;
+    width: 1170px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card__img{
+    width: 100%;
+}
+.card__title{
+    margin-top: 8px;
+}
+
+.card__img-wrapper{
+    width: 280px;
+    height: 180px;
+    display: flex;
+}
+
+.card__img{
+    object-fit: cover;
+}
+
+.card__img-wrapper--big{
+    width: 580px;
+    height: 360px;
+}
+
+.card{
+    margin-bottom: 24px;
+}
+
+.benefits{
+    list-style: disc;
+    margin-left: 14px;
+    border-bottom: 1px solid var(--dark);
+}
+
+.benefits__item{
+    margin-bottom: 12px;
+}
+.heading-link{
+    color: var(--dark);
+    text-decoration: underline;
+    display: inline-block;
+}
+.heading-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about{
+    border-top: 1px solid var(--dark);
+    border-bottom: 1px solid var(--dark);
+    padding-bottom: 24px;
+}
+.about__text{
+    margin-bottom: 12px;
+}
+
+.texts-block__title{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.texts-block{
+    width: 270px;
+    margin-bottom: 24px;
+}
+
+.texts-blocks{
+    display: flex;
+    height: 500px;
+    width: 280px;
+}
+
+.texts{
+    display: flex;
+}
+
+.sidebar-menu__item-link{
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.sidebar-menu{
+    border-bottom: 1px solid var(--dark);
+}
+
+.heading--banner{
+    color: var(--blue);
+}
+
+.heading-block--banner{
+    align-items: start;
+}
+
+.banner{
+    border: 2px solid var(--blue);
+    border-radius: 2px;
+}
+
+.map{
+    margin-top: 24px;
+    border-top: 1px solid var(--dark);
+    width: 580px;
+    height: 580px;
+}

@@ -1,0 +1,46 @@
+.footer-wrapper {
+    background-color: var(--blue);
+    color: var(--light);
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: var(--light);
+    margin: 24px auto 0px auto;
+    padding-bottom: 24px;
+}
+
+.logo-block__subtitle--light{
+    color: var(--light);
+}
+
+.logo-block__title--light{
+    margin-top: 12px;
+}
+.footer-menu{
+    margin: 12px 24px auto 0px;
+}
+.footer-menu__item-link{
+    display: block;
+    margin-bottom: 12px;
+}
+
+.footer-contacts__item{
+    margin: 24px 0px;
+}
+.footer-contacts{
+    margin: 24px 0px;
+}
+
+.footer-contacts__title{
+    font-weight: bold;
+}
+
+.footer-contacts__link{
+    display: inline-block;
+    margin-top: 8px;
+}
+
